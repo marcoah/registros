@@ -8,5 +8,4 @@
         Public Shared Completa As String    'Cadena de conexion completa lista para usar en 
     End Class
 
-
 End Module
