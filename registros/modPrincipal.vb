@@ -8,8 +8,4 @@
         Public Shared Completa As String    'Cadena de conexion completa lista para usar en 
     End Class
 
-    Public Function AbrirBD() As String
-
-    End Function
-
 End Module
