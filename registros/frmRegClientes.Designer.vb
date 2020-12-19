@@ -24,17 +24,17 @@ Partial Class frmRegClientes
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(frmRegClientes))
         Me.btnBuscarCliente = New System.Windows.Forms.Button()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
-        Me.TextBox2 = New System.Windows.Forms.TextBox()
+        Me.txtIDCliente = New System.Windows.Forms.TextBox()
+        Me.txtRazonSocial = New System.Windows.Forms.TextBox()
         Me.txtNRIF = New System.Windows.Forms.TextBox()
-        Me.TextBox4 = New System.Windows.Forms.TextBox()
-        Me.TextBox5 = New System.Windows.Forms.TextBox()
-        Me.TextBox6 = New System.Windows.Forms.TextBox()
-        Me.TextBox7 = New System.Windows.Forms.TextBox()
-        Me.TextBox8 = New System.Windows.Forms.TextBox()
-        Me.TextBox9 = New System.Windows.Forms.TextBox()
-        Me.TextBox10 = New System.Windows.Forms.TextBox()
-        Me.TextBox11 = New System.Windows.Forms.TextBox()
+        Me.txtEmail = New System.Windows.Forms.TextBox()
+        Me.txtCelular = New System.Windows.Forms.TextBox()
+        Me.txtTelefono = New System.Windows.Forms.TextBox()
+        Me.txtApellidos = New System.Windows.Forms.TextBox()
+        Me.txtNombres = New System.Windows.Forms.TextBox()
+        Me.txtCiudad = New System.Windows.Forms.TextBox()
+        Me.txtEstado = New System.Windows.Forms.TextBox()
+        Me.txtPais = New System.Windows.Forms.TextBox()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
@@ -52,14 +52,11 @@ Partial Class frmRegClientes
         Me.ToolStripButton3 = New System.Windows.Forms.ToolStripButton()
         Me.ToolStripSeparator1 = New System.Windows.Forms.ToolStripSeparator()
         Me.ToolStripButton4 = New System.Windows.Forms.ToolStripButton()
-        Me.RadioButton1 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton2 = New System.Windows.Forms.RadioButton()
-        Me.cboTipoRIF = New System.Windows.Forms.ComboBox()
-        Me.lblInstrucciones = New System.Windows.Forms.Label()
-        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.btnSalir = New System.Windows.Forms.Button()
+        Me.btnGuardar = New System.Windows.Forms.Button()
+        Me.btnBorrar = New System.Windows.Forms.Button()
+        Me.btnAgregar = New System.Windows.Forms.Button()
         Me.ToolStrip1.SuspendLayout()
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'btnBuscarCliente
@@ -71,82 +68,82 @@ Partial Class frmRegClientes
         Me.btnBuscarCliente.Text = "Buscar"
         Me.btnBuscarCliente.UseVisualStyleBackColor = True
         '
-        'TextBox1
+        'txtIDCliente
         '
-        Me.TextBox1.Location = New System.Drawing.Point(95, 52)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(100, 20)
-        Me.TextBox1.TabIndex = 1
+        Me.txtIDCliente.Location = New System.Drawing.Point(95, 52)
+        Me.txtIDCliente.Name = "txtIDCliente"
+        Me.txtIDCliente.Size = New System.Drawing.Size(100, 20)
+        Me.txtIDCliente.TabIndex = 1
         '
-        'TextBox2
+        'txtRazonSocial
         '
-        Me.TextBox2.Location = New System.Drawing.Point(561, 186)
-        Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(100, 20)
-        Me.TextBox2.TabIndex = 2
+        Me.txtRazonSocial.Location = New System.Drawing.Point(147, 146)
+        Me.txtRazonSocial.Name = "txtRazonSocial"
+        Me.txtRazonSocial.Size = New System.Drawing.Size(460, 20)
+        Me.txtRazonSocial.TabIndex = 2
         '
         'txtNRIF
         '
-        Me.txtNRIF.Location = New System.Drawing.Point(169, 163)
+        Me.txtNRIF.Location = New System.Drawing.Point(147, 177)
         Me.txtNRIF.Name = "txtNRIF"
         Me.txtNRIF.Size = New System.Drawing.Size(100, 20)
         Me.txtNRIF.TabIndex = 3
         '
-        'TextBox4
+        'txtEmail
         '
-        Me.TextBox4.Location = New System.Drawing.Point(169, 246)
-        Me.TextBox4.Name = "TextBox4"
-        Me.TextBox4.Size = New System.Drawing.Size(100, 20)
-        Me.TextBox4.TabIndex = 4
+        Me.txtEmail.Location = New System.Drawing.Point(147, 213)
+        Me.txtEmail.Name = "txtEmail"
+        Me.txtEmail.Size = New System.Drawing.Size(286, 20)
+        Me.txtEmail.TabIndex = 4
         '
-        'TextBox5
+        'txtCelular
         '
-        Me.TextBox5.Location = New System.Drawing.Point(169, 280)
-        Me.TextBox5.Name = "TextBox5"
-        Me.TextBox5.Size = New System.Drawing.Size(100, 20)
-        Me.TextBox5.TabIndex = 5
+        Me.txtCelular.Location = New System.Drawing.Point(147, 243)
+        Me.txtCelular.Name = "txtCelular"
+        Me.txtCelular.Size = New System.Drawing.Size(100, 20)
+        Me.txtCelular.TabIndex = 5
         '
-        'TextBox6
+        'txtTelefono
         '
-        Me.TextBox6.Location = New System.Drawing.Point(169, 316)
-        Me.TextBox6.Name = "TextBox6"
-        Me.TextBox6.Size = New System.Drawing.Size(100, 20)
-        Me.TextBox6.TabIndex = 6
+        Me.txtTelefono.Location = New System.Drawing.Point(147, 269)
+        Me.txtTelefono.Name = "txtTelefono"
+        Me.txtTelefono.Size = New System.Drawing.Size(100, 20)
+        Me.txtTelefono.TabIndex = 6
         '
-        'TextBox7
+        'txtApellidos
         '
-        Me.TextBox7.Location = New System.Drawing.Point(561, 150)
-        Me.TextBox7.Name = "TextBox7"
-        Me.TextBox7.Size = New System.Drawing.Size(100, 20)
-        Me.TextBox7.TabIndex = 7
+        Me.txtApellidos.Location = New System.Drawing.Point(427, 121)
+        Me.txtApellidos.Name = "txtApellidos"
+        Me.txtApellidos.Size = New System.Drawing.Size(180, 20)
+        Me.txtApellidos.TabIndex = 7
         '
-        'TextBox8
+        'txtNombres
         '
-        Me.TextBox8.Location = New System.Drawing.Point(561, 124)
-        Me.TextBox8.Name = "TextBox8"
-        Me.TextBox8.Size = New System.Drawing.Size(100, 20)
-        Me.TextBox8.TabIndex = 8
+        Me.txtNombres.Location = New System.Drawing.Point(147, 121)
+        Me.txtNombres.Name = "txtNombres"
+        Me.txtNombres.Size = New System.Drawing.Size(180, 20)
+        Me.txtNombres.TabIndex = 8
         '
-        'TextBox9
+        'txtCiudad
         '
-        Me.TextBox9.Location = New System.Drawing.Point(561, 246)
-        Me.TextBox9.Name = "TextBox9"
-        Me.TextBox9.Size = New System.Drawing.Size(100, 20)
-        Me.TextBox9.TabIndex = 9
+        Me.txtCiudad.Location = New System.Drawing.Point(360, 269)
+        Me.txtCiudad.Name = "txtCiudad"
+        Me.txtCiudad.Size = New System.Drawing.Size(100, 20)
+        Me.txtCiudad.TabIndex = 9
         '
-        'TextBox10
+        'txtEstado
         '
-        Me.TextBox10.Location = New System.Drawing.Point(561, 287)
-        Me.TextBox10.Name = "TextBox10"
-        Me.TextBox10.Size = New System.Drawing.Size(100, 20)
-        Me.TextBox10.TabIndex = 10
+        Me.txtEstado.Location = New System.Drawing.Point(524, 269)
+        Me.txtEstado.Name = "txtEstado"
+        Me.txtEstado.Size = New System.Drawing.Size(100, 20)
+        Me.txtEstado.TabIndex = 10
         '
-        'TextBox11
+        'txtPais
         '
-        Me.TextBox11.Location = New System.Drawing.Point(561, 320)
-        Me.TextBox11.Name = "TextBox11"
-        Me.TextBox11.Size = New System.Drawing.Size(100, 20)
-        Me.TextBox11.TabIndex = 11
+        Me.txtPais.Location = New System.Drawing.Point(666, 269)
+        Me.txtPais.Name = "txtPais"
+        Me.txtPais.Size = New System.Drawing.Size(100, 20)
+        Me.txtPais.TabIndex = 11
         '
         'Label1
         '
@@ -160,16 +157,16 @@ Partial Class frmRegClientes
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(377, 193)
+        Me.Label2.Location = New System.Drawing.Point(56, 153)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(166, 13)
+        Me.Label2.Size = New System.Drawing.Size(70, 13)
         Me.Label2.TabIndex = 13
-        Me.Label2.Text = "Nombre Completo o Razon Social"
+        Me.Label2.Text = "Razon Social"
         '
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(42, 166)
+        Me.Label3.Location = New System.Drawing.Point(57, 180)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(69, 13)
         Me.Label3.TabIndex = 14
@@ -178,7 +175,7 @@ Partial Class frmRegClientes
         'Label4
         '
         Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(67, 253)
+        Me.Label4.Location = New System.Drawing.Point(32, 216)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(94, 13)
         Me.Label4.TabIndex = 15
@@ -187,7 +184,7 @@ Partial Class frmRegClientes
         'Label5
         '
         Me.Label5.AutoSize = True
-        Me.Label5.Location = New System.Drawing.Point(122, 287)
+        Me.Label5.Location = New System.Drawing.Point(87, 246)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(39, 13)
         Me.Label5.TabIndex = 16
@@ -196,7 +193,7 @@ Partial Class frmRegClientes
         'Label6
         '
         Me.Label6.AutoSize = True
-        Me.Label6.Location = New System.Drawing.Point(83, 320)
+        Me.Label6.Location = New System.Drawing.Point(48, 272)
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(78, 13)
         Me.Label6.TabIndex = 17
@@ -205,7 +202,7 @@ Partial Class frmRegClientes
         'Label7
         '
         Me.Label7.AutoSize = True
-        Me.Label7.Location = New System.Drawing.Point(494, 153)
+        Me.Label7.Location = New System.Drawing.Point(372, 124)
         Me.Label7.Name = "Label7"
         Me.Label7.Size = New System.Drawing.Size(49, 13)
         Me.Label7.TabIndex = 18
@@ -214,38 +211,38 @@ Partial Class frmRegClientes
         'Label8
         '
         Me.Label8.AutoSize = True
-        Me.Label8.Location = New System.Drawing.Point(494, 124)
+        Me.Label8.Location = New System.Drawing.Point(77, 121)
         Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(44, 13)
+        Me.Label8.Size = New System.Drawing.Size(49, 13)
         Me.Label8.TabIndex = 19
-        Me.Label8.Text = "Nombre"
+        Me.Label8.Text = "Nombres"
         '
         'Label9
         '
         Me.Label9.AutoSize = True
-        Me.Label9.Location = New System.Drawing.Point(504, 249)
+        Me.Label9.Location = New System.Drawing.Point(314, 272)
         Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(39, 13)
+        Me.Label9.Size = New System.Drawing.Size(40, 13)
         Me.Label9.TabIndex = 20
-        Me.Label9.Text = "Label9"
+        Me.Label9.Text = "Ciudad"
         '
         'Label10
         '
         Me.Label10.AutoSize = True
-        Me.Label10.Location = New System.Drawing.Point(504, 290)
+        Me.Label10.Location = New System.Drawing.Point(478, 272)
         Me.Label10.Name = "Label10"
-        Me.Label10.Size = New System.Drawing.Size(45, 13)
+        Me.Label10.Size = New System.Drawing.Size(40, 13)
         Me.Label10.TabIndex = 21
-        Me.Label10.Text = "Label10"
+        Me.Label10.Text = "Estado"
         '
         'Label11
         '
         Me.Label11.AutoSize = True
-        Me.Label11.Location = New System.Drawing.Point(504, 323)
+        Me.Label11.Location = New System.Drawing.Point(630, 272)
         Me.Label11.Name = "Label11"
-        Me.Label11.Size = New System.Drawing.Size(45, 13)
+        Me.Label11.Size = New System.Drawing.Size(27, 13)
         Me.Label11.TabIndex = 22
-        Me.Label11.Text = "Label11"
+        Me.Label11.Text = "Pais"
         '
         'ToolStrip1
         '
@@ -297,74 +294,51 @@ Partial Class frmRegClientes
         Me.ToolStripButton4.Text = "Cancelar"
         Me.ToolStripButton4.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
         '
-        'RadioButton1
-        '
-        Me.RadioButton1.AutoSize = True
-        Me.RadioButton1.Location = New System.Drawing.Point(45, 105)
-        Me.RadioButton1.Name = "RadioButton1"
-        Me.RadioButton1.Size = New System.Drawing.Size(101, 17)
-        Me.RadioButton1.TabIndex = 24
-        Me.RadioButton1.TabStop = True
-        Me.RadioButton1.Text = "Persona Natural"
-        Me.RadioButton1.UseVisualStyleBackColor = True
-        '
-        'RadioButton2
-        '
-        Me.RadioButton2.AutoSize = True
-        Me.RadioButton2.Location = New System.Drawing.Point(169, 105)
-        Me.RadioButton2.Name = "RadioButton2"
-        Me.RadioButton2.Size = New System.Drawing.Size(103, 17)
-        Me.RadioButton2.TabIndex = 25
-        Me.RadioButton2.TabStop = True
-        Me.RadioButton2.Text = "Persona Juridica"
-        Me.RadioButton2.UseVisualStyleBackColor = True
-        '
-        'cboTipoRIF
-        '
-        Me.cboTipoRIF.FormattingEnabled = True
-        Me.cboTipoRIF.Location = New System.Drawing.Point(125, 163)
-        Me.cboTipoRIF.Name = "cboTipoRIF"
-        Me.cboTipoRIF.Size = New System.Drawing.Size(38, 21)
-        Me.cboTipoRIF.TabIndex = 26
-        '
-        'lblInstrucciones
-        '
-        Me.lblInstrucciones.BackColor = System.Drawing.SystemColors.Info
-        Me.lblInstrucciones.Location = New System.Drawing.Point(406, 50)
-        Me.lblInstrucciones.Name = "lblInstrucciones"
-        Me.lblInstrucciones.Size = New System.Drawing.Size(255, 32)
-        Me.lblInstrucciones.TabIndex = 27
-        Me.lblInstrucciones.Text = "Instrucciones"
-        Me.lblInstrucciones.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'PictureBox1
-        '
-        Me.PictureBox1.Location = New System.Drawing.Point(364, 50)
-        Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(36, 32)
-        Me.PictureBox1.TabIndex = 28
-        Me.PictureBox1.TabStop = False
-        '
         'btnSalir
         '
-        Me.btnSalir.Location = New System.Drawing.Point(560, 408)
+        Me.btnSalir.Location = New System.Drawing.Point(35, 392)
         Me.btnSalir.Name = "btnSalir"
-        Me.btnSalir.Size = New System.Drawing.Size(75, 23)
+        Me.btnSalir.Size = New System.Drawing.Size(169, 23)
         Me.btnSalir.TabIndex = 29
         Me.btnSalir.Text = "Salir"
         Me.btnSalir.UseVisualStyleBackColor = True
+        '
+        'btnGuardar
+        '
+        Me.btnGuardar.Location = New System.Drawing.Point(430, 393)
+        Me.btnGuardar.Name = "btnGuardar"
+        Me.btnGuardar.Size = New System.Drawing.Size(133, 23)
+        Me.btnGuardar.TabIndex = 30
+        Me.btnGuardar.Text = "&Guardar"
+        Me.btnGuardar.UseVisualStyleBackColor = True
+        '
+        'btnBorrar
+        '
+        Me.btnBorrar.Location = New System.Drawing.Point(597, 393)
+        Me.btnBorrar.Name = "btnBorrar"
+        Me.btnBorrar.Size = New System.Drawing.Size(116, 22)
+        Me.btnBorrar.TabIndex = 31
+        Me.btnBorrar.Text = "Borrar"
+        Me.btnBorrar.UseVisualStyleBackColor = True
+        '
+        'btnAgregar
+        '
+        Me.btnAgregar.Location = New System.Drawing.Point(295, 391)
+        Me.btnAgregar.Name = "btnAgregar"
+        Me.btnAgregar.Size = New System.Drawing.Size(95, 27)
+        Me.btnAgregar.TabIndex = 32
+        Me.btnAgregar.Text = "Agregar"
+        Me.btnAgregar.UseVisualStyleBackColor = True
         '
         'frmRegClientes
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.Controls.Add(Me.btnAgregar)
+        Me.Controls.Add(Me.btnBorrar)
+        Me.Controls.Add(Me.btnGuardar)
         Me.Controls.Add(Me.btnSalir)
-        Me.Controls.Add(Me.PictureBox1)
-        Me.Controls.Add(Me.lblInstrucciones)
-        Me.Controls.Add(Me.cboTipoRIF)
-        Me.Controls.Add(Me.RadioButton2)
-        Me.Controls.Add(Me.RadioButton1)
         Me.Controls.Add(Me.ToolStrip1)
         Me.Controls.Add(Me.Label11)
         Me.Controls.Add(Me.Label10)
@@ -377,40 +351,39 @@ Partial Class frmRegClientes
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
-        Me.Controls.Add(Me.TextBox11)
-        Me.Controls.Add(Me.TextBox10)
-        Me.Controls.Add(Me.TextBox9)
-        Me.Controls.Add(Me.TextBox8)
-        Me.Controls.Add(Me.TextBox7)
-        Me.Controls.Add(Me.TextBox6)
-        Me.Controls.Add(Me.TextBox5)
-        Me.Controls.Add(Me.TextBox4)
+        Me.Controls.Add(Me.txtPais)
+        Me.Controls.Add(Me.txtEstado)
+        Me.Controls.Add(Me.txtCiudad)
+        Me.Controls.Add(Me.txtNombres)
+        Me.Controls.Add(Me.txtApellidos)
+        Me.Controls.Add(Me.txtTelefono)
+        Me.Controls.Add(Me.txtCelular)
+        Me.Controls.Add(Me.txtEmail)
         Me.Controls.Add(Me.txtNRIF)
-        Me.Controls.Add(Me.TextBox2)
-        Me.Controls.Add(Me.TextBox1)
+        Me.Controls.Add(Me.txtRazonSocial)
+        Me.Controls.Add(Me.txtIDCliente)
         Me.Controls.Add(Me.btnBuscarCliente)
         Me.Name = "frmRegClientes"
         Me.Text = "Registro de Clientes"
         Me.ToolStrip1.ResumeLayout(False)
         Me.ToolStrip1.PerformLayout()
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
     End Sub
 
     Friend WithEvents btnBuscarCliente As Button
-    Friend WithEvents TextBox1 As TextBox
-    Friend WithEvents TextBox2 As TextBox
+    Friend WithEvents txtIDCliente As TextBox
+    Friend WithEvents txtRazonSocial As TextBox
     Friend WithEvents txtNRIF As TextBox
-    Friend WithEvents TextBox4 As TextBox
-    Friend WithEvents TextBox5 As TextBox
-    Friend WithEvents TextBox6 As TextBox
-    Friend WithEvents TextBox7 As TextBox
-    Friend WithEvents TextBox8 As TextBox
-    Friend WithEvents TextBox9 As TextBox
-    Friend WithEvents TextBox10 As TextBox
-    Friend WithEvents TextBox11 As TextBox
+    Friend WithEvents txtEmail As TextBox
+    Friend WithEvents txtCelular As TextBox
+    Friend WithEvents txtTelefono As TextBox
+    Friend WithEvents txtApellidos As TextBox
+    Friend WithEvents txtNombres As TextBox
+    Friend WithEvents txtCiudad As TextBox
+    Friend WithEvents txtEstado As TextBox
+    Friend WithEvents txtPais As TextBox
     Friend WithEvents Label1 As Label
     Friend WithEvents Label2 As Label
     Friend WithEvents Label3 As Label
@@ -428,10 +401,8 @@ Partial Class frmRegClientes
     Friend WithEvents ToolStripButton3 As ToolStripButton
     Friend WithEvents ToolStripSeparator1 As ToolStripSeparator
     Friend WithEvents ToolStripButton4 As ToolStripButton
-    Friend WithEvents RadioButton1 As RadioButton
-    Friend WithEvents RadioButton2 As RadioButton
-    Friend WithEvents cboTipoRIF As ComboBox
-    Friend WithEvents lblInstrucciones As Label
-    Friend WithEvents PictureBox1 As PictureBox
     Friend WithEvents btnSalir As Button
+    Friend WithEvents btnGuardar As Button
+    Friend WithEvents btnBorrar As Button
+    Friend WithEvents btnAgregar As Button
 End Class
