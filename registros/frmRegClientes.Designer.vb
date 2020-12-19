@@ -80,49 +80,49 @@ Partial Class frmRegClientes
         Me.txtRazonSocial.Location = New System.Drawing.Point(147, 146)
         Me.txtRazonSocial.Name = "txtRazonSocial"
         Me.txtRazonSocial.Size = New System.Drawing.Size(460, 20)
-        Me.txtRazonSocial.TabIndex = 2
+        Me.txtRazonSocial.TabIndex = 4
         '
         'txtNRIF
         '
         Me.txtNRIF.Location = New System.Drawing.Point(147, 177)
         Me.txtNRIF.Name = "txtNRIF"
         Me.txtNRIF.Size = New System.Drawing.Size(100, 20)
-        Me.txtNRIF.TabIndex = 3
+        Me.txtNRIF.TabIndex = 5
         '
         'txtEmail
         '
         Me.txtEmail.Location = New System.Drawing.Point(147, 213)
         Me.txtEmail.Name = "txtEmail"
         Me.txtEmail.Size = New System.Drawing.Size(286, 20)
-        Me.txtEmail.TabIndex = 4
+        Me.txtEmail.TabIndex = 6
         '
         'txtCelular
         '
         Me.txtCelular.Location = New System.Drawing.Point(147, 243)
         Me.txtCelular.Name = "txtCelular"
         Me.txtCelular.Size = New System.Drawing.Size(100, 20)
-        Me.txtCelular.TabIndex = 5
+        Me.txtCelular.TabIndex = 7
         '
         'txtTelefono
         '
         Me.txtTelefono.Location = New System.Drawing.Point(147, 269)
         Me.txtTelefono.Name = "txtTelefono"
         Me.txtTelefono.Size = New System.Drawing.Size(100, 20)
-        Me.txtTelefono.TabIndex = 6
+        Me.txtTelefono.TabIndex = 8
         '
         'txtApellidos
         '
         Me.txtApellidos.Location = New System.Drawing.Point(427, 121)
         Me.txtApellidos.Name = "txtApellidos"
         Me.txtApellidos.Size = New System.Drawing.Size(180, 20)
-        Me.txtApellidos.TabIndex = 7
+        Me.txtApellidos.TabIndex = 3
         '
         'txtNombres
         '
         Me.txtNombres.Location = New System.Drawing.Point(147, 121)
         Me.txtNombres.Name = "txtNombres"
         Me.txtNombres.Size = New System.Drawing.Size(180, 20)
-        Me.txtNombres.TabIndex = 8
+        Me.txtNombres.TabIndex = 2
         '
         'txtCiudad
         '
@@ -299,7 +299,7 @@ Partial Class frmRegClientes
         Me.btnSalir.Location = New System.Drawing.Point(35, 392)
         Me.btnSalir.Name = "btnSalir"
         Me.btnSalir.Size = New System.Drawing.Size(169, 23)
-        Me.btnSalir.TabIndex = 29
+        Me.btnSalir.TabIndex = 15
         Me.btnSalir.Text = "Salir"
         Me.btnSalir.UseVisualStyleBackColor = True
         '
@@ -308,7 +308,7 @@ Partial Class frmRegClientes
         Me.btnGuardar.Location = New System.Drawing.Point(430, 393)
         Me.btnGuardar.Name = "btnGuardar"
         Me.btnGuardar.Size = New System.Drawing.Size(133, 23)
-        Me.btnGuardar.TabIndex = 30
+        Me.btnGuardar.TabIndex = 12
         Me.btnGuardar.Text = "&Guardar"
         Me.btnGuardar.UseVisualStyleBackColor = True
         '
@@ -317,7 +317,7 @@ Partial Class frmRegClientes
         Me.btnBorrar.Location = New System.Drawing.Point(597, 393)
         Me.btnBorrar.Name = "btnBorrar"
         Me.btnBorrar.Size = New System.Drawing.Size(116, 22)
-        Me.btnBorrar.TabIndex = 31
+        Me.btnBorrar.TabIndex = 13
         Me.btnBorrar.Text = "Borrar"
         Me.btnBorrar.UseVisualStyleBackColor = True
         '
@@ -326,7 +326,7 @@ Partial Class frmRegClientes
         Me.btnAgregar.Location = New System.Drawing.Point(295, 391)
         Me.btnAgregar.Name = "btnAgregar"
         Me.btnAgregar.Size = New System.Drawing.Size(95, 27)
-        Me.btnAgregar.TabIndex = 32
+        Me.btnAgregar.TabIndex = 14
         Me.btnAgregar.Text = "Agregar"
         Me.btnAgregar.UseVisualStyleBackColor = True
         '

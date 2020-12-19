@@ -85,7 +85,11 @@ Public Class Principal
         frmConfiguracion.Show()
     End Sub
 
-    Private Sub ClientesToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ClientesToolStripMenuItem.Click
+    Private Sub ListaDeClientesToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ListaDeClientesToolStripMenuItem.Click
+        frmListaClientes.Show()
+    End Sub
+
+    Private Sub RegistroDeClientesToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles RegistroDeClientesToolStripMenuItem.Click
         frmRegClientes.Show()
     End Sub
 End Class

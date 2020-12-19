@@ -27,6 +27,10 @@ Partial Class Principal
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Principal))
         Me.MenuStrip = New System.Windows.Forms.MenuStrip()
         Me.FileMenu = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ClientesToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ListaDeClientesToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.RegistroDeClientesToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ToolStripSeparator1 = New System.Windows.Forms.ToolStripSeparator()
         Me.PrintSetupToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ToolStripSeparator5 = New System.Windows.Forms.ToolStripSeparator()
         Me.ExitToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
@@ -39,8 +43,6 @@ Partial Class Principal
         Me.StatusStrip = New System.Windows.Forms.StatusStrip()
         Me.ToolStripStatusLabel = New System.Windows.Forms.ToolStripStatusLabel()
         Me.ToolTip = New System.Windows.Forms.ToolTip(Me.components)
-        Me.ClientesToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.ToolStripSeparator1 = New System.Windows.Forms.ToolStripSeparator()
         Me.MenuStrip.SuspendLayout()
         Me.ToolStrip.SuspendLayout()
         Me.StatusStrip.SuspendLayout()
@@ -62,6 +64,30 @@ Partial Class Principal
         Me.FileMenu.Name = "FileMenu"
         Me.FileMenu.Size = New System.Drawing.Size(60, 20)
         Me.FileMenu.Text = "&Archivo"
+        '
+        'ClientesToolStripMenuItem
+        '
+        Me.ClientesToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ListaDeClientesToolStripMenuItem, Me.RegistroDeClientesToolStripMenuItem})
+        Me.ClientesToolStripMenuItem.Name = "ClientesToolStripMenuItem"
+        Me.ClientesToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.ClientesToolStripMenuItem.Text = "Clientes"
+        '
+        'ListaDeClientesToolStripMenuItem
+        '
+        Me.ListaDeClientesToolStripMenuItem.Name = "ListaDeClientesToolStripMenuItem"
+        Me.ListaDeClientesToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.ListaDeClientesToolStripMenuItem.Text = "Lista de clientes"
+        '
+        'RegistroDeClientesToolStripMenuItem
+        '
+        Me.RegistroDeClientesToolStripMenuItem.Name = "RegistroDeClientesToolStripMenuItem"
+        Me.RegistroDeClientesToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.RegistroDeClientesToolStripMenuItem.Text = "Registro de clientes"
+        '
+        'ToolStripSeparator1
+        '
+        Me.ToolStripSeparator1.Name = "ToolStripSeparator1"
+        Me.ToolStripSeparator1.Size = New System.Drawing.Size(177, 6)
         '
         'PrintSetupToolStripMenuItem
         '
@@ -144,17 +170,6 @@ Partial Class Principal
         Me.ToolStripStatusLabel.Size = New System.Drawing.Size(42, 17)
         Me.ToolStripStatusLabel.Text = "Estado"
         '
-        'ClientesToolStripMenuItem
-        '
-        Me.ClientesToolStripMenuItem.Name = "ClientesToolStripMenuItem"
-        Me.ClientesToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
-        Me.ClientesToolStripMenuItem.Text = "Clientes"
-        '
-        'ToolStripSeparator1
-        '
-        Me.ToolStripSeparator1.Name = "ToolStripSeparator1"
-        Me.ToolStripSeparator1.Size = New System.Drawing.Size(177, 6)
-        '
         'Principal
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -193,4 +208,6 @@ Partial Class Principal
     Friend WithEvents MenuStrip As System.Windows.Forms.MenuStrip
     Friend WithEvents ClientesToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents ToolStripSeparator1 As ToolStripSeparator
+    Friend WithEvents ListaDeClientesToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents RegistroDeClientesToolStripMenuItem As ToolStripMenuItem
 End Class
