@@ -3,7 +3,7 @@
   <Profiles />
   <Settings>
     <Setting Name="URL_API" Type="System.String" Scope="Application">
-      <Value Profile="(Default)">http://localhost:8000/</Value>
+      <Value Profile="(Default)">https://mhconsultores.net.ve/</Value>
     </Setting>
     <Setting Name="TOKEN" Type="System.String" Scope="User">
       <Value Profile="(Default)" />

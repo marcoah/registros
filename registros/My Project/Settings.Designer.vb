@@ -56,7 +56,7 @@ Namespace My
         
         <Global.System.Configuration.ApplicationScopedSettingAttribute(),  _
          Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
-         Global.System.Configuration.DefaultSettingValueAttribute("http://localhost:8000/")>  _
+         Global.System.Configuration.DefaultSettingValueAttribute("https://mhconsultores.net.ve/")>  _
         Public ReadOnly Property URL_API() As String
             Get
                 Return CType(Me("URL_API"),String)
